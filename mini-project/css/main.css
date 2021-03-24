@@ -1,17 +1,24 @@
-#header{
+#top{
     width: 100%;
-    height: 753px;  
+    height: 610px;  
     background-image: url("../img/Group\ 1.png");
-    background-repeat: no-repeat;
+    background-position: center;
+    
    
       
 }
 #logo2{
-    height: 100px;
-    width: 200px;
-}
-.navbar-toggler{
+    height: 50px;
+    width: 80px;
     
+}
+.navbar-toggler {
+  position:absolute;
+  right: 10px;
+  top: 10px;
+}
+.navbar-nav{
+   
 }
 
 .text-white{
@@ -27,10 +34,25 @@
     transition: width 1s; 
 }
 .nav-item:hover::after{
-    width: 100%;
+    width: 113px;
     transition: width .3s;
     color: black;
 }
 span{
     color: turquoise;
-} 
+}
+
+#linge{
+    position: absolute;
+   
+}
+.fa{
+    color: white;
+    width: 20px;
+    height: 20px;
+
+}
+.glyphicon{
+    color: white;
+}
+
