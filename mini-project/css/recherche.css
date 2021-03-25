@@ -1,63 +1,64 @@
-h1{
-    font-weight: bold;
-    margin-top: 100px;
-    color:  rgb(35, 49, 129);;
+h1 {
+  font-weight: bold;
+  margin-top: 100px;
+  color: rgb(35, 49, 129);
 }
-span{
-    color: cyan;
-    
+span {
+  color: cyan;
 }
-#logo2{
-    height: 50px;
-    width: 80px;
-    
+#logo2 {
+  height: 50px;
+  width: 80px;
 }
 .navbar-toggler {
-  position:absolute;
+  position: absolute;
   right: 10px;
   top: 10px;
 }
-#t1{
-    color: rgb(45, 26, 155);
+#t1 {
+  color: rgb(45, 26, 155);
 }
-#t2{
-    color: rgb(45, 26, 155);
+#t2 {
+  color: rgb(45, 26, 155);
 }
-#t3{
-    color: rgb(45, 26, 155);
+#t3 {
+  color: rgb(45, 26, 155);
 }
-#t4{
-    color: rgb(45, 26, 155);
+#t4 {
+  color: rgb(45, 26, 155);
 }
-.nav-item::after{
-    content: '';
-    display: block;
-    width: 0px;
-    height: 2px;
-    background: rgb(26, 221, 189);
-    transition: width 1s; 
+.nav-item::after {
+  content: "";
+  display: block;
+  width: 0px;
+  height: 2px;
+  background: rgb(26, 221, 189);
+  transition: width 1s;
 }
-.nav-item:hover::after{
-    width: 113px;
-    transition: width .3s;
-    color: black;
+.nav-item:hover::after {
+  width: 113px;
+  transition: width 0.3s;
+  color: black;
 }
-.form-control{
-    border-radius: 30px;
+.form-control {
+  border-radius: 30px;
 }
-.input-group-text{
-    border-radius: 30px;
+.input-group-text {
+  border-radius: 30px;
 }
-.input-group{
-    margin-top: 20px;
+.input-group {
+  margin-top: 20px;
 }
-.glyphicon{
-    color:  rgb(35, 49, 129);;
+.glyphicon {
+  color: rgb(35, 49, 129);
 }
-#sujet{
-    margin-top: 20px;
-    color: white;
-    background-color: rgb(56, 68, 136);
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+#sujet {
+  margin-top: 20px;
+  color: white;
+  background-color: rgb(56, 68, 136);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.lien {
+  color: white;
 }
