@@ -4,7 +4,7 @@ if (isset($_POST['data'])) {
     $data = explode(",", $_POST['data']);
     //create php object
     $obj = (object)[
-        "Date Expose" => $data[0],
+        "dateExpose" => $data[0],
         "Sujet" => $data[1],
         "Tags" => $data[2],
         "lien" => $data[3],
