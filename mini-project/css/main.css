@@ -21,7 +21,7 @@
   top: 10px;
 }
 .carousel{
-    margin-top: 150px;
+    margin-top: 119px;
 }
 .carousel-item{
     height: 114px;
@@ -44,7 +44,7 @@
     color: black;
 }
 span{
-    color: turquoise;
+    color:  rgb(26, 221, 189);
 }
 
 #linge{
@@ -61,11 +61,10 @@ span{
     color: white;
 }
 .foote{
-   margin-top: 232px;
+   margin-top: 120px;
     
 }
 .text-light{
-    font-size: 20px;
     font-weight: bold;
 }
 

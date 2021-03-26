@@ -4,7 +4,7 @@ h1{
     color:  rgb(35, 49, 129);;
 }
 span{
-    color: cyan;
+    color:  rgb(26, 221, 189);
     
 }
 #logo2{
@@ -34,11 +34,16 @@ span{
     display: block;
     width: 0px;
     height: 2px;
-    background: rgb(26, 221, 189);
+    background:  rgb(26, 221, 189);
     transition: width 1s; 
 }
 .nav-item:hover::after{
     width: 113px;
     transition: width .3s;
     color: black;
+}
+.table-striped>tbody>tr:nth-child(odd)>td,
+.table-striped>tbody>tr:nth-child(odd)>th {
+  background-color: #80bdff;
+  ;
 }

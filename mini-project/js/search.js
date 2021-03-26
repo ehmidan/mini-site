@@ -1,4 +1,4 @@
-function find(){
+function search(){
     event.preventDefault();
     let xhttp =new XMLHttpRequest();
     let sujet=document.querySelector("input").value;
@@ -19,11 +19,28 @@ function find(){
           }
           if(!found){
               res.innerHTML="Vielle n'exists pas!!!!!!!";
+              lien.innerHTML="";
           }
           
       }
     }
     xhttp.open("GET","users.json");
-    xhttp.setRequestHeader("Content-Type","application/x-www-form-urlencoded")
     xhttp.send();
+}
+function find(){
+    search();
+    createButton();
+}
+function createButton(){
+    var element=document.createElement("button");
+    document.getElementById("btn").remove();
+    element.classList.add("nice");
+    var spn=document.getElementById("mer");
+    element.innerHTML="<span class='glyphicon glyphicon-search'></span>";
+    element.style.border="none";
+    element.style.outline="none";
+    spn.appendChild(element);
+    element.addEventListener("click",function(){
+        search();
+    })
 }

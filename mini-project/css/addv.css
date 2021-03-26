@@ -20,7 +20,7 @@
   font-weight: bold;
 }
 #vie {
-  color: rgb(27, 192, 156);
+  color:  rgb(26, 221, 189);
 }
 #test {
   background-color: rgb(30, 55, 124);
@@ -54,7 +54,7 @@
   margin-top: 3vw;
 }
 .btn{
- background-color:rgb(27, 192, 156);
+ background-color: rgb(26, 221, 189);
 }
 .text-info{
   color: brown;
@@ -76,7 +76,7 @@ color:  rgb(32, 32, 145);
   display: block;
   width: 0px;
   height: 2px;
-  background: rgb(26, 221, 189);
+  background:  rgb(26, 221, 189);
   transition: width 1s; 
 }
 .nav-item:hover::after{
